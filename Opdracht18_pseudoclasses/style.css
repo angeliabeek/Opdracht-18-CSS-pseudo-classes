@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+body {
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+}
+.head-title {
+    padding: 10px;
+    margin: 15px 0;
+}
+.main-nav {
+    background-color: darkblue; 
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+.main-nav li {
+    float: left;
+    border-right: 1px solid white;
+}
+.sub-nav {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.search input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.currentPage {
+    background-color: rgb(171, 171, 226);
+}
+.main-nav li:hover {
+    background-color: lightblue;
+}
+.search input[type=text]:focus {
+    border: 8px solid aqua;
+}
+.links,
+.textinput {
+    padding: 5px;
+    margin: 10px 0;
+}
+.bluelink,
+.redlink,
+.yellowlink {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.greentextinput{
+    height: 30px;
+    border-radius: 6px;
+}
+.bluelink:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+.redlink:active {
+    color: red;
+    font-style: italic;
+}
+.yellowlink:visited {
+    color: yellow;
+}
+.greentextinput:focus {
+    color: green;
+    font-size: 20px;
+}
